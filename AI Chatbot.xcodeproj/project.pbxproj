@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D430696C2A3D47C200BE60F8 /* AI_ChatbotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430696B2A3D47C200BE60F8 /* AI_ChatbotApp.swift */; };
+		D430696E2A3D47C200BE60F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430696D2A3D47C200BE60F8 /* ContentView.swift */; };
+		D43069702A3D47C300BE60F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D430696F2A3D47C300BE60F8 /* Assets.xcassets */; };
+		D43069742A3D47C300BE60F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43069732A3D47C300BE60F8 /* Preview Assets.xcassets */; };
+		D430697E2A3D47C300BE60F8 /* AI_ChatbotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D430697D2A3D47C300BE60F8 /* AI_ChatbotTests.swift */; };
+		D43069882A3D47C300BE60F8 /* AI_ChatbotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43069872A3D47C300BE60F8 /* AI_ChatbotUITests.swift */; };
+		D430698A2A3D47C300BE60F8 /* AI_ChatbotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43069892A3D47C300BE60F8 /* AI_ChatbotUITestsLaunchTests.swift */; };
+		D49C8D182A3F832E00C57F86 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49C8D172A3F832E00C57F86 /* Constants.swift */; };
+		D49C8D1A2A3F83AA00C57F86 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49C8D192A3F83AA00C57F86 /* OpenAIService.swift */; };
+		D49C8D1D2A3F849600C57F86 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D49C8D1C2A3F849600C57F86 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D430697A2A3D47C300BE60F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43069602A3D47C200BE60F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43069672A3D47C200BE60F8;
+			remoteInfo = "AI Chatbot";
+		};
+		D43069842A3D47C300BE60F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43069602A3D47C200BE60F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43069672A3D47C200BE60F8;
+			remoteInfo = "AI Chatbot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D43069682A3D47C200BE60F8 /* AI Chatbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Chatbot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D430696B2A3D47C200BE60F8 /* AI_ChatbotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_ChatbotApp.swift; sourceTree = "<group>"; };
+		D430696D2A3D47C200BE60F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D430696F2A3D47C300BE60F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43069712A3D47C300BE60F8 /* AI_Chatbot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AI_Chatbot.entitlements; sourceTree = "<group>"; };
+		D43069732A3D47C300BE60F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D43069792A3D47C300BE60F8 /* AI ChatbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI ChatbotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D430697D2A3D47C300BE60F8 /* AI_ChatbotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_ChatbotTests.swift; sourceTree = "<group>"; };
+		D43069832A3D47C300BE60F8 /* AI ChatbotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AI ChatbotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43069872A3D47C300BE60F8 /* AI_ChatbotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_ChatbotUITests.swift; sourceTree = "<group>"; };
+		D43069892A3D47C300BE60F8 /* AI_ChatbotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AI_ChatbotUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D49C8D172A3F832E00C57F86 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D49C8D192A3F83AA00C57F86 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43069652A3D47C200BE60F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49C8D1D2A3F849600C57F86 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43069762A3D47C300BE60F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43069802A3D47C300BE60F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D430695F2A3D47C200BE60F8 = {
+			isa = PBXGroup;
+			children = (
+				D430696A2A3D47C200BE60F8 /* AI Chatbot */,
+				D430697C2A3D47C300BE60F8 /* AI ChatbotTests */,
+				D43069862A3D47C300BE60F8 /* AI ChatbotUITests */,
+				D43069692A3D47C200BE60F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D43069692A3D47C200BE60F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43069682A3D47C200BE60F8 /* AI Chatbot.app */,
+				D43069792A3D47C300BE60F8 /* AI ChatbotTests.xctest */,
+				D43069832A3D47C300BE60F8 /* AI ChatbotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D430696A2A3D47C200BE60F8 /* AI Chatbot */ = {
+			isa = PBXGroup;
+			children = (
+				D49C8D192A3F83AA00C57F86 /* OpenAIService.swift */,
+				D49C8D172A3F832E00C57F86 /* Constants.swift */,
+				D430696B2A3D47C200BE60F8 /* AI_ChatbotApp.swift */,
+				D430696D2A3D47C200BE60F8 /* ContentView.swift */,
+				D430696F2A3D47C300BE60F8 /* Assets.xcassets */,
+				D43069712A3D47C300BE60F8 /* AI_Chatbot.entitlements */,
+				D43069722A3D47C300BE60F8 /* Preview Content */,
+			);
+			path = "AI Chatbot";
+			sourceTree = "<group>";
+		};
+		D43069722A3D47C300BE60F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D43069732A3D47C300BE60F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D430697C2A3D47C300BE60F8 /* AI ChatbotTests */ = {
+			isa = PBXGroup;
+			children = (
+				D430697D2A3D47C300BE60F8 /* AI_ChatbotTests.swift */,
+			);
+			path = "AI ChatbotTests";
+			sourceTree = "<group>";
+		};
+		D43069862A3D47C300BE60F8 /* AI ChatbotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D43069872A3D47C300BE60F8 /* AI_ChatbotUITests.swift */,
+				D43069892A3D47C300BE60F8 /* AI_ChatbotUITestsLaunchTests.swift */,
+			);
+			path = "AI ChatbotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43069672A3D47C200BE60F8 /* AI Chatbot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D430698D2A3D47C300BE60F8 /* Build configuration list for PBXNativeTarget "AI Chatbot" */;
+			buildPhases = (
+				D43069642A3D47C200BE60F8 /* Sources */,
+				D43069652A3D47C200BE60F8 /* Frameworks */,
+				D43069662A3D47C200BE60F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AI Chatbot";
+			packageProductDependencies = (
+				D49C8D1C2A3F849600C57F86 /* Alamofire */,
+			);
+			productName = "AI Chatbot";
+			productReference = D43069682A3D47C200BE60F8 /* AI Chatbot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43069782A3D47C300BE60F8 /* AI ChatbotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43069902A3D47C300BE60F8 /* Build configuration list for PBXNativeTarget "AI ChatbotTests" */;
+			buildPhases = (
+				D43069752A3D47C300BE60F8 /* Sources */,
+				D43069762A3D47C300BE60F8 /* Frameworks */,
+				D43069772A3D47C300BE60F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D430697B2A3D47C300BE60F8 /* PBXTargetDependency */,
+			);
+			name = "AI ChatbotTests";
+			productName = "AI ChatbotTests";
+			productReference = D43069792A3D47C300BE60F8 /* AI ChatbotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D43069822A3D47C300BE60F8 /* AI ChatbotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43069932A3D47C300BE60F8 /* Build configuration list for PBXNativeTarget "AI ChatbotUITests" */;
+			buildPhases = (
+				D430697F2A3D47C300BE60F8 /* Sources */,
+				D43069802A3D47C300BE60F8 /* Frameworks */,
+				D43069812A3D47C300BE60F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43069852A3D47C300BE60F8 /* PBXTargetDependency */,
+			);
+			name = "AI ChatbotUITests";
+			productName = "AI ChatbotUITests";
+			productReference = D43069832A3D47C300BE60F8 /* AI ChatbotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43069602A3D47C200BE60F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D43069672A3D47C200BE60F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D43069782A3D47C300BE60F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D43069672A3D47C200BE60F8;
+					};
+					D43069822A3D47C300BE60F8 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D43069672A3D47C200BE60F8;
+					};
+				};
+			};
+			buildConfigurationList = D43069632A3D47C200BE60F8 /* Build configuration list for PBXProject "AI Chatbot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D430695F2A3D47C200BE60F8;
+			packageReferences = (
+				D49C8D1B2A3F849600C57F86 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = D43069692A3D47C200BE60F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43069672A3D47C200BE60F8 /* AI Chatbot */,
+				D43069782A3D47C300BE60F8 /* AI ChatbotTests */,
+				D43069822A3D47C300BE60F8 /* AI ChatbotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43069662A3D47C200BE60F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43069742A3D47C300BE60F8 /* Preview Assets.xcassets in Resources */,
+				D43069702A3D47C300BE60F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43069772A3D47C300BE60F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43069812A3D47C300BE60F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43069642A3D47C200BE60F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D430696E2A3D47C200BE60F8 /* ContentView.swift in Sources */,
+				D430696C2A3D47C200BE60F8 /* AI_ChatbotApp.swift in Sources */,
+				D49C8D182A3F832E00C57F86 /* Constants.swift in Sources */,
+				D49C8D1A2A3F83AA00C57F86 /* OpenAIService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43069752A3D47C300BE60F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D430697E2A3D47C300BE60F8 /* AI_ChatbotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D430697F2A3D47C300BE60F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D430698A2A3D47C300BE60F8 /* AI_ChatbotUITestsLaunchTests.swift in Sources */,
+				D43069882A3D47C300BE60F8 /* AI_ChatbotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D430697B2A3D47C300BE60F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43069672A3D47C200BE60F8 /* AI Chatbot */;
+			targetProxy = D430697A2A3D47C300BE60F8 /* PBXContainerItemProxy */;
+		};
+		D43069852A3D47C300BE60F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43069672A3D47C200BE60F8 /* AI Chatbot */;
+			targetProxy = D43069842A3D47C300BE60F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D430698B2A3D47C300BE60F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D430698C2A3D47C300BE60F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D430698E2A3D47C300BE60F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AI Chatbot/AI_Chatbot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Chatbot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslandevs.AI-Chatbot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D430698F2A3D47C300BE60F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "AI Chatbot/AI_Chatbot.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AI Chatbot/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslandevs.AI-Chatbot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D43069912A3D47C300BE60F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslandevs.AI-ChatbotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Chatbot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Chatbot";
+			};
+			name = Debug;
+		};
+		D43069922A3D47C300BE60F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslandevs.AI-ChatbotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AI Chatbot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AI Chatbot";
+			};
+			name = Release;
+		};
+		D43069942A3D47C300BE60F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslandevs.AI-ChatbotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI Chatbot";
+			};
+			name = Debug;
+		};
+		D43069952A3D47C300BE60F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arslandevs.AI-ChatbotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AI Chatbot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43069632A3D47C200BE60F8 /* Build configuration list for PBXProject "AI Chatbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D430698B2A3D47C300BE60F8 /* Debug */,
+				D430698C2A3D47C300BE60F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D430698D2A3D47C300BE60F8 /* Build configuration list for PBXNativeTarget "AI Chatbot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D430698E2A3D47C300BE60F8 /* Debug */,
+				D430698F2A3D47C300BE60F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43069902A3D47C300BE60F8 /* Build configuration list for PBXNativeTarget "AI ChatbotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43069912A3D47C300BE60F8 /* Debug */,
+				D43069922A3D47C300BE60F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43069932A3D47C300BE60F8 /* Build configuration list for PBXNativeTarget "AI ChatbotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43069942A3D47C300BE60F8 /* Debug */,
+				D43069952A3D47C300BE60F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D49C8D1B2A3F849600C57F86 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D49C8D1C2A3F849600C57F86 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D49C8D1B2A3F849600C57F86 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D43069602A3D47C200BE60F8 /* Project object */;
+}
